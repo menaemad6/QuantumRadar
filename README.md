@@ -1,6 +1,21 @@
 # Quantum Radar
-
 Java project for the Fawry internship assessment.
+
+
+## A Message to the Recruiting Team
+
+Thank you for taking the time to review my submission.
+
+The fact that I'm working on this task means that something in my CV convinced you that I was worth considering, and I'm genuinely grateful for that opportunity.
+
+I truly believe this internship could be the first meaningful step in my software engineering career. If I'm fortunate enough to join Fawry, I'll dedicate myself to learning, improving every day, and contributing wherever I can. My goal is not only to complete the internship successfully, but to earn the opportunity to continue growing within a company like Fawry through hard work, consistency, and passion.
+
+Thank you again for your time, your trust, and for considering my application.
+
+**Mena Emad**
+
+
+
 
 ## What It Does
 
