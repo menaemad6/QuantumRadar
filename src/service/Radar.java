@@ -41,7 +41,7 @@ public class Radar {
         }
 
         // if the violations list is not emptyt we will issue a fine and save it into the repository and return it
-        Fine fine = new Fine(String.valueOf(observation.getPlateNumber()), violations);
+        Fine fine = new Fine(observation.getPlateNumber(), violations);
 
         repository.addFine(fine);
 

@@ -2,14 +2,14 @@ package model;
 
 public class Observation {
     // Our data members
-    private int plateNumber;
+    private String plateNumber;
     private String date;
     private int speed;
     private CarType carType;
     private boolean seatBelt;
 
     // Constructor
-    public Observation(int plateNumber, String date, int speed, CarType carType, boolean seatBelt) {
+    public Observation(String plateNumber, String date, int speed, CarType carType, boolean seatBelt) {
         this.plateNumber = plateNumber;
         this.date = date;
         this.speed = speed;
@@ -18,7 +18,7 @@ public class Observation {
     }
 
     // Getters
-    public int getPlateNumber() {
+    public String getPlateNumber() {
         return plateNumber;
     }
 

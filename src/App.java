@@ -34,9 +34,9 @@ public class App {
         Radar radar = new Radar(rules, repository);
 
         // scan some observations, we will create some observations and pass them to the radar to scan, the radar will check if the observation violates any of the rules and if it does, it will issue a fine and save it into the repository
-        radar.scan(new Observation(1001, "2026-07-24", 90, CarType.PRIVATE, false));
-        radar.scan(new Observation(2002, "2026-07-24", 70, CarType.TRUCK, true));
-        radar.scan(new Observation(3003, "2026-07-24", 50, CarType.BUS, false));
+        radar.scan(new Observation("ABC1234", "2026-07-24", 90, CarType.PRIVATE, false));
+        radar.scan(new Observation("BDA5678", "2026-07-24", 70, CarType.TRUCK, true));
+        radar.scan(new Observation("CFA9012", "2026-07-24", 50, CarType.BUS, false));
 
 
         // print the fines coming from the repository
