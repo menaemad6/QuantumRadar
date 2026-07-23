@@ -46,3 +46,9 @@ This is the terminal output after running the project:
 
 ![Terminal output](images/terminal-output.png)
 
+## Data Flow Diagram
+
+The flow below shows how an observation goes through the radar, rules, fine creation, and repository storage:
+
+![Data flow diagram](images/data-flow-diagram.svg)
+
