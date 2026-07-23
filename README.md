@@ -40,3 +40,9 @@ From the project root:
 .\run.ps1
 ```
 
+## Output Example
+
+This is the terminal output after running the project:
+
+![Terminal output](images/terminal-output.png)
+

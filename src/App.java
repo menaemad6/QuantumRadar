@@ -48,6 +48,7 @@ public class App {
             for (var violation : fine.getViolations()) {    
                 System.out.println("- " + violation.getDescription() + " (" + violation.getFine() + ")" + " EGP");
             }
+            System.out.println();
         }
 
         // print the violated rules count coming from the repository
