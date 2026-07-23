@@ -17,7 +17,7 @@ public class Observation {
         this.seatBelt = seatBelt;
     }
 
-    // Geeters
+    // Getters
     public int getPlateNumber() {
         return plateNumber;
     }
